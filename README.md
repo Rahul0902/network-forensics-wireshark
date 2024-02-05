@@ -3,6 +3,9 @@
 <h2>Scenario</h2>
 <a href="https://cyberdefenders.org/blueteam-ctf-challenges/149/">https://cyberdefenders.org/blueteam-ctf-challenges/149/</a>
 <br><br>An anomaly was discovered within our company's intranet as our Development team found an unusual file on one of our web servers. Suspecting potential malicious activity, the network team has prepared a pcap file with critical network traffic for analysis for the security team, and you have been tasked with analyzing the pcap.
+<br><br>
+Tools Used:<br>
+- Wireshark
 
 <h3>Identifying the city the attack originated from.</h3>
 I began by pinpointing a TCP request from the source to the destination IP. Utilising the source IP, I performed a WHOIS lookup, revealing that the source IP originated from Tianjin.<br><br>
